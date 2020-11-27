@@ -1,0 +1,299 @@
+.chrome-plugin-demo-panel {
+	position: fixed;
+	right: 0;
+	bottom: 100px;
+	padding: 10px;
+    color: white;
+    overflow-y:auto;
+    max-height:800px;
+    z-index:99999;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 3px grey;
+    border-radius: 6.4px;
+    border:1px dashed black;
+    margin-right:5px;
+}
+
+.chrome-plugin-condition-list-panel {
+	position: fixed;
+	right: 0;
+	bottom: 190px;
+	padding: 10px;
+    color: white;
+	width: 500px;
+	height:300px;
+    overflow-y:auto;
+    max-height:800px;
+    z-index:99999;
+    background: #FFFFFF;
+    box-shadow: -5px 5px 3px grey;
+    border-radius: 6.4px;
+    border:1px dashed black;
+    margin-right:5px;
+}
+.chrome-plugin-send-pop-panel{
+    position: absolute;
+	left:40px;
+	top: 200px;
+     right: 0;
+     bottom: 10px;
+     background: #FFFFFF;
+     padding: 10px;
+     box-shadow: 0px 0px 10px #002761;
+     border-radius: 3px;
+     color: black;
+     float: left;
+     width: 60%;
+     /*height: 50%;*/
+     overflow-y :auto;
+    font-family: PingFangSC-Regular;
+ }
+
+
+.chrome-plugin-pop-panel{
+    position: relative;
+	left:40px;
+	top:40px;
+     right: 0;
+     bottom: 10px;
+     background: #FFFFFF;
+     padding: 10px;
+     box-shadow: 0px 0px 10px #002761;
+     border-radius: 3px;
+     color: black;
+     float: left;
+     width: 60%;
+     /*height: 50%;*/
+     overflow-y :auto;
+    font-family: PingFangSC-Regular;
+ }
+
+.condition-header-variety{
+	    display: inline-block;
+    background: #629DFC;
+    border-radius: 3.2px;
+    font-family: PingFangSC-Regular;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    letter-spacing: 0.34px;
+    text-align: center;
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+}
+.condition-header{
+    height: 32px;
+}
+#variety{
+	    display: inline-block;}
+#round_numebr{
+	    display: inline-block;
+	
+}
+#count_down{
+	    display: inline-block;
+	
+}
+.amount-style{
+    font-weight: bold;
+}
+.condition-header-single{ 
+	display: inline-block;
+    background: #F3F3F3;
+    border-radius: 1.6px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.33px;
+    text-align: center;
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#custSelector{
+	    color: black;
+	    position: relative;
+	    margin: 10px;
+	    width: 300px;
+	    height: 50px;
+}
+.list-btn-div{
+	    position: relative;
+	    top: 10px;
+	    left: 10px;
+	    width: 100px;
+	    height: 50px;
+}
+.list-table-div{
+	    position: relative;
+	    top: 50px;
+}
+.condition-detail{
+    background: #F3F3F3;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0.33px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.chrome-plugin-demo-panel a{
+	color: white;
+    text-decoration: none;
+	font-size: 16px;
+}
+.chrome-plugin-demo-panel a:hover{
+    text-decoration: underline;
+    color: #ffee08;
+}
+.chrome-plugin-simple-tip {
+    position: fixed;
+	z-index: 99999;
+    left: 20px;
+    padding: 16px 10px;
+    top: 60px;
+    color: white;
+    min-width: 150px;
+	max-width: 700px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    background: #70a800;
+    background-image: linear-gradient(to bottom, #95cc2a, #70a800);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	transition: top .4s;
+}
+.condition-button{
+    background: #629DFC;
+    border-radius: 1.6px;
+    font-family: PingFangSC-Regular;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    letter-spacing: 0.34px;
+    text-align: center;
+}
+
+.count-total{
+    display: inline;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.cus-td{
+    width:100px;
+
+    text-align: center;
+}
+.condition-table{
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+.tr-header{
+    background: #629DFC;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.54px;
+    text-align: center;
+}
+.cus-title{
+    width: 100%;
+    text-align: left;
+    font-size: 20.8px;
+    color: #629DFC;
+    letter-spacing: 0.49px;
+}
+.cus-hidden{
+    display: none;
+}
+.tr-even{
+    background: #F5F8FA;
+}
+.tr-repeat{
+    background: #E0EBFE;
+}
+.animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+@-webkit-keyframes slideInLeft {
+    0% {
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+        visibility: visible
+    }
+
+    100% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        -webkit-transform: translate3d(-100%,0,0);
+        transform: translate3d(-100%,0,0);
+        visibility: visible
+    }
+
+    100% {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft
+}
+
+
+/****************************编辑部分**************************/
+ .chrome-plugin-condition-panel{
+      position: relative;
+      right: 0;
+      bottom: 10px;
+      background: #FFFFFF;
+      padding: 10px;
+      box-shadow: 0px 0px 10px #002761;
+      border-radius: 3px;
+      color: black;
+      float: left;
+	  width: 800px;
+      overflow-y :auto;
+      font-family: PingFangSC-Regular;
+ 
+  }
+    .click-button{
+      text-decoration:none;
+  
+      font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;
+      font-weight:bold;
+      border-radius:3px;
+  
+      -webkit-transition:all linear 0.30s;
+      -moz-transition:all linear 0.30s;
+      ont-size: 14.4px;
+      color: #FFFFFF;
+      letter-spacing: 0.34px;
+      text-align: center;
+      background-color: #629DFC;
+      float: right;
+      margin-right: 10px;
+      width: 96px;
+      height: 32px;
+  }
+   .prior-button{
+	   
+    width: 96px;
+    height: 32px;
+      font-size: 14.4px;
+      color: #FFFFFF;
+      letter-spacing: 0.34px;
+      text-align: center;
+      background-color: #629DFC;
+  }
