@@ -382,7 +382,7 @@ function delPriorityFun() {
 
 function showAddCondition(custId, isEdit) {
 	if(isEdit){
-	let varietyInfo = getStroredLocalStorageJson(publicVariety.g_variety_id);
+		let varietyInfo = getStroredLocalStorageJson(publicVariety.g_variety_id);
 		 custCondition = varietyInfo['custCondition'][custId];
 		editPriorNum = custCondition['conditions'].length;
 	}else{
